@@ -72,11 +72,11 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
     }
 
     private PhoneNumber parse(String phone, String region) {
+        int expectedCallingCode = UTIL.getCountryCodeForRegion(region);
         try {
             if (phone.startsWith("+")) {
                 PhoneNumber parsed = UTIL.parse(phone, region);
-                String phoneRegion = UTIL.getRegionCodeForCountryCode(parsed.getCountryCode());
-                if (!region.equalsIgnoreCase(phoneRegion)) {
+                if (parsed.getCountryCode() != expectedCallingCode) {
                     throw new InvalidPhoneNumberException("Phone number dial code (+" + parsed.getCountryCode() + ") does not match provided country code '" + region + "'");
                 }
                 return parsed;
@@ -84,7 +84,7 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
 
             try {
                 PhoneNumber parsed = UTIL.parse("+" + phone, region);
-                if (UTIL.getRegionCodeForCountryCode(parsed.getCountryCode()).equals(region)) {
+                if (parsed.getCountryCode() == expectedCallingCode) {
                     return parsed;
                 }
             } catch (NumberParseException ignored) {

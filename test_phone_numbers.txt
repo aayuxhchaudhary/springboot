@@ -1,0 +1,224 @@
+{"countryCode": "TH", "phoneNumber": "81 234 5678"}
+{"countryCode": "TH", "phoneNumber": "089 123 4567"}
+{"countryCode": "TH", "phoneNumber": "92 345 6789"}
+{"countryCode": "+66", "phoneNumber": "61 234 5678"}
+{"countryCode": "66", "phoneNumber": "88 765 4321"}
+{"countryCode": "TH", "phoneNumber": "81 234"}
+{"countryCode": "TH", "phoneNumber": "81 234 567890"}
+{"countryCode": "TH", "phoneNumber": "12 345 6789"}
+{"countryCode": "SG", "phoneNumber": "9123 4567"}
+{"countryCode": "SG", "phoneNumber": "8123 4567"}
+{"countryCode": "+65", "phoneNumber": "9876 5432"}
+{"countryCode": "65", "phoneNumber": "8765 4321"}
+{"countryCode": "SG", "phoneNumber": "91234"}
+{"countryCode": "SG", "phoneNumber": "9123 456789"}
+{"countryCode": "SG", "phoneNumber": "1123 4567"}
+{"countryCode": "MY", "phoneNumber": "12 345 6789"}
+{"countryCode": "+60", "phoneNumber": "11 1234 5678"}
+{"countryCode": "60", "phoneNumber": "19 876 5432"}
+{"countryCode": "MY", "phoneNumber": "12 34"}
+{"countryCode": "MY", "phoneNumber": "12 345 6789012"}
+{"countryCode": "ID", "phoneNumber": "812 3456 7890"}
+{"countryCode": "+62", "phoneNumber": "821 9876 5432"}
+{"countryCode": "62", "phoneNumber": "813 1234 5678"}
+{"countryCode": "ID", "phoneNumber": "812 34"}
+{"countryCode": "PH", "phoneNumber": "917 123 4567"}
+{"countryCode": "+63", "phoneNumber": "928 987 6543"}
+{"countryCode": "63", "phoneNumber": "919 555 1234"}
+{"countryCode": "PH", "phoneNumber": "917 12"}
+{"countryCode": "VN", "phoneNumber": "91 234 5678"}
+{"countryCode": "+84", "phoneNumber": "98 765 4321"}
+{"countryCode": "84", "phoneNumber": "90 123 4567"}
+{"countryCode": "VN", "phoneNumber": "91 23"}
+{"countryCode": "AE", "phoneNumber": "50 123 4567"}
+{"countryCode": "AE", "phoneNumber": "052 987 6543"}
+{"countryCode": "+971", "phoneNumber": "54 321 0987"}
+{"countryCode": "971", "phoneNumber": "55 678 9012"}
+{"countryCode": "AE", "phoneNumber": "50 123"}
+{"countryCode": "AE", "phoneNumber": "51 123 4567"}
+{"countryCode": "SA", "phoneNumber": "50 123 4567"}
+{"countryCode": "+966", "phoneNumber": "55 987 6543"}
+{"countryCode": "966", "phoneNumber": "54 111 2233"}
+{"countryCode": "SA", "phoneNumber": "50 12"}
+{"countryCode": "QA", "phoneNumber": "3312 3456"}
+{"countryCode": "+974", "phoneNumber": "5512 3456"}
+{"countryCode": "QA", "phoneNumber": "3312"}
+{"countryCode": "KW", "phoneNumber": "9123 4567"}
+{"countryCode": "+965", "phoneNumber": "6123 4567"}
+{"countryCode": "KW", "phoneNumber": "912"}
+{"countryCode": "US", "phoneNumber": "212 555 1234"}
+{"countryCode": "US", "phoneNumber": "415 555 2671"}
+{"countryCode": "+1", "phoneNumber": "312 555 0199"}
+{"countryCode": "1", "phoneNumber": "617 555 0188"}
+{"countryCode": "US", "phoneNumber": "212 555"}
+{"countryCode": "US", "phoneNumber": "212 555 123456"}
+{"countryCode": "US", "phoneNumber": "012 555 1234"}
+{"countryCode": "CA", "phoneNumber": "416 555 0142"}
+{"countryCode": "+1", "phoneNumber": "604 555 0192"}
+{"countryCode": "CA", "phoneNumber": "416 555"}
+{"countryCode": "GB", "phoneNumber": "7400 123456"}
+{"countryCode": "GB", "phoneNumber": "020 7946 0958"}
+{"countryCode": "+44", "phoneNumber": "7911 123456"}
+{"countryCode": "44", "phoneNumber": "7700 900077"}
+{"countryCode": "GB", "phoneNumber": "7400 12"}
+{"countryCode": "GB", "phoneNumber": "7400 123456789"}
+{"countryCode": "DE", "phoneNumber": "151 23456789"}
+{"countryCode": "DE", "phoneNumber": "0170 1234567"}
+{"countryCode": "+49", "phoneNumber": "160 9876543"}
+{"countryCode": "49", "phoneNumber": "030 12345678"}
+{"countryCode": "DE", "phoneNumber": "151"}
+{"countryCode": "FR", "phoneNumber": "6 12 34 56 78"}
+{"countryCode": "FR", "phoneNumber": "01 42 68 55 55"}
+{"countryCode": "+33", "phoneNumber": "7 12 34 56 78"}
+{"countryCode": "33", "phoneNumber": "06 98 76 54 32"}
+{"countryCode": "FR", "phoneNumber": "6 12 34"}
+{"countryCode": "IT", "phoneNumber": "347 1234567"}
+{"countryCode": "+39", "phoneNumber": "06 69812345"}
+{"countryCode": "39", "phoneNumber": "333 9876543"}
+{"countryCode": "IT", "phoneNumber": "347 12"}
+{"countryCode": "ES", "phoneNumber": "612 345 678"}
+{"countryCode": "+34", "phoneNumber": "912 345 678"}
+{"countryCode": "34", "phoneNumber": "712 345 678"}
+{"countryCode": "ES", "phoneNumber": "612 34"}
+{"countryCode": "NL", "phoneNumber": "6 12345678"}
+{"countryCode": "+31", "phoneNumber": "020 1234567"}
+{"countryCode": "NL", "phoneNumber": "6 12"}
+{"countryCode": "BE", "phoneNumber": "470 12 34 56"}
+{"countryCode": "+32", "phoneNumber": "480 98 76 54"}
+{"countryCode": "BE", "phoneNumber": "470 12"}
+{"countryCode": "CH", "phoneNumber": "78 123 45 67"}
+{"countryCode": "+41", "phoneNumber": "79 987 65 43"}
+{"countryCode": "CH", "phoneNumber": "78 12"}
+{"countryCode": "SE", "phoneNumber": "70 123 45 67"}
+{"countryCode": "+46", "phoneNumber": "72 987 65 43"}
+{"countryCode": "SE", "phoneNumber": "70 12"}
+{"countryCode": "NO", "phoneNumber": "412 34 567"}
+{"countryCode": "+47", "phoneNumber": "912 34 567"}
+{"countryCode": "NO", "phoneNumber": "412 34"}
+{"countryCode": "DK", "phoneNumber": "20 12 34 56"}
+{"countryCode": "+45", "phoneNumber": "30 12 34 56"}
+{"countryCode": "DK", "phoneNumber": "20 12"}
+{"countryCode": "FI", "phoneNumber": "40 1234567"}
+{"countryCode": "+358", "phoneNumber": "50 1234567"}
+{"countryCode": "FI", "phoneNumber": "40 12"}
+{"countryCode": "PL", "phoneNumber": "512 345 678"}
+{"countryCode": "+48", "phoneNumber": "601 234 567"}
+{"countryCode": "PL", "phoneNumber": "512 34"}
+{"countryCode": "AT", "phoneNumber": "664 1234567"}
+{"countryCode": "+43", "phoneNumber": "676 1234567"}
+{"countryCode": "AT", "phoneNumber": "664"}
+{"countryCode": "PT", "phoneNumber": "912 345 678"}
+{"countryCode": "+351", "phoneNumber": "923 456 789"}
+{"countryCode": "PT", "phoneNumber": "912 34"}
+{"countryCode": "GR", "phoneNumber": "691 234 5678"}
+{"countryCode": "+30", "phoneNumber": "694 123 4567"}
+{"countryCode": "GR", "phoneNumber": "691 23"}
+{"countryCode": "IE", "phoneNumber": "85 123 4567"}
+{"countryCode": "+353", "phoneNumber": "87 123 4567"}
+{"countryCode": "IE", "phoneNumber": "85 12"}
+{"countryCode": "CZ", "phoneNumber": "601 123 456"}
+{"countryCode": "+420", "phoneNumber": "721 123 456"}
+{"countryCode": "CZ", "phoneNumber": "601 12"}
+{"countryCode": "HU", "phoneNumber": "20 123 4567"}
+{"countryCode": "+36", "phoneNumber": "30 123 4567"}
+{"countryCode": "HU", "phoneNumber": "20 12"}
+{"countryCode": "RO", "phoneNumber": "712 345 678"}
+{"countryCode": "+40", "phoneNumber": "722 345 678"}
+{"countryCode": "RO", "phoneNumber": "712 34"}
+{"countryCode": "TR", "phoneNumber": "532 123 4567"}
+{"countryCode": "+90", "phoneNumber": "542 123 4567"}
+{"countryCode": "TR", "phoneNumber": "532 12"}
+{"countryCode": "JP", "phoneNumber": "90 1234 5678"}
+{"countryCode": "+81", "phoneNumber": "80 2345 6789"}
+{"countryCode": "81", "phoneNumber": "03 1234 5678"}
+{"countryCode": "JP", "phoneNumber": "90 1234"}
+{"countryCode": "KR", "phoneNumber": "10 1234 5678"}
+{"countryCode": "+82", "phoneNumber": "10 9876 5432"}
+{"countryCode": "KR", "phoneNumber": "10 12"}
+{"countryCode": "CN", "phoneNumber": "138 0013 8000"}
+{"countryCode": "+86", "phoneNumber": "186 1234 5678"}
+{"countryCode": "CN", "phoneNumber": "138 00"}
+{"countryCode": "TW", "phoneNumber": "912 345 678"}
+{"countryCode": "+886", "phoneNumber": "928 123 456"}
+{"countryCode": "TW", "phoneNumber": "912 34"}
+{"countryCode": "HK", "phoneNumber": "9123 4567"}
+{"countryCode": "+852", "phoneNumber": "5123 4567"}
+{"countryCode": "HK", "phoneNumber": "9123"}
+{"countryCode": "AU", "phoneNumber": "412 345 678"}
+{"countryCode": "+61", "phoneNumber": "0412 345 678"}
+{"countryCode": "61", "phoneNumber": "02 9123 4567"}
+{"countryCode": "AU", "phoneNumber": "412 34"}
+{"countryCode": "NZ", "phoneNumber": "21 123 4567"}
+{"countryCode": "+64", "phoneNumber": "27 123 4567"}
+{"countryCode": "NZ", "phoneNumber": "21 12"}
+{"countryCode": "IN", "phoneNumber": "99936 78654"}
+{"countryCode": "+91", "phoneNumber": "88776 65544"}
+{"countryCode": "91", "phoneNumber": "70123 45678"}
+{"countryCode": "IN", "phoneNumber": "99935 67"}
+{"countryCode": "PK", "phoneNumber": "300 1234567"}
+{"countryCode": "+92", "phoneNumber": "321 1234567"}
+{"countryCode": "PK", "phoneNumber": "300 12"}
+{"countryCode": "BD", "phoneNumber": "1712 345678"}
+{"countryCode": "+880", "phoneNumber": "1812 345678"}
+{"countryCode": "BD", "phoneNumber": "1712 34"}
+{"countryCode": "LK", "phoneNumber": "71 234 5678"}
+{"countryCode": "+94", "phoneNumber": "77 123 4567"}
+{"countryCode": "LK", "phoneNumber": "71 23"}
+{"countryCode": "NP", "phoneNumber": "9841234567"}
+{"countryCode": "+977", "phoneNumber": "9851234567"}
+{"countryCode": "NP", "phoneNumber": "98412"}
+{"countryCode": "BR", "phoneNumber": "11 91234 5678"}
+{"countryCode": "+55", "phoneNumber": "21 98765 4321"}
+{"countryCode": "55", "phoneNumber": "31 99876 5432"}
+{"countryCode": "BR", "phoneNumber": "11 9123"}
+{"countryCode": "MX", "phoneNumber": "55 1234 5678"}
+{"countryCode": "+52", "phoneNumber": "81 1234 5678"}
+{"countryCode": "MX", "phoneNumber": "55 123"}
+{"countryCode": "AR", "phoneNumber": "11 2345 6789"}
+{"countryCode": "+54", "phoneNumber": "9 11 2345 6789"}
+{"countryCode": "AR", "phoneNumber": "11 23"}
+{"countryCode": "CL", "phoneNumber": "9 1234 5678"}
+{"countryCode": "+56", "phoneNumber": "9 8765 4321"}
+{"countryCode": "CL", "phoneNumber": "9 123"}
+{"countryCode": "CO", "phoneNumber": "300 123 4567"}
+{"countryCode": "+57", "phoneNumber": "310 987 6543"}
+{"countryCode": "CO", "phoneNumber": "300 12"}
+{"countryCode": "PE", "phoneNumber": "912 345 678"}
+{"countryCode": "+51", "phoneNumber": "987 654 321"}
+{"countryCode": "PE", "phoneNumber": "912 34"}
+{"countryCode": "ZA", "phoneNumber": "82 123 4567"}
+{"countryCode": "+27", "phoneNumber": "083 456 7890"}
+{"countryCode": "ZA", "phoneNumber": "82 12"}
+{"countryCode": "EG", "phoneNumber": "100 123 4567"}
+{"countryCode": "+20", "phoneNumber": "111 234 5678"}
+{"countryCode": "EG", "phoneNumber": "100 12"}
+{"countryCode": "NG", "phoneNumber": "802 123 4567"}
+{"countryCode": "+234", "phoneNumber": "803 987 6543"}
+{"countryCode": "NG", "phoneNumber": "802 12"}
+{"countryCode": "KE", "phoneNumber": "712 345678"}
+{"countryCode": "+254", "phoneNumber": "722 123456"}
+{"countryCode": "KE", "phoneNumber": "712 34"}
+{"countryCode": "MA", "phoneNumber": "612 345678"}
+{"countryCode": "+212", "phoneNumber": "661 234567"}
+{"countryCode": "MA", "phoneNumber": "612 34"}
+{"countryCode": "IL", "phoneNumber": "50 123 4567"}
+{"countryCode": "+972", "phoneNumber": "52 123 4567"}
+{"countryCode": "IL", "phoneNumber": "50 12"}
+{"countryCode": "KH", "phoneNumber": "12 345 678"}
+{"countryCode": "+855", "phoneNumber": "92 123 456"}
+{"countryCode": "KH", "phoneNumber": "12 34"}
+{"countryCode": "LA", "phoneNumber": "20 23 123 456"}
+{"countryCode": "+856", "phoneNumber": "20 55 123 456"}
+{"countryCode": "LA", "phoneNumber": "20 23"}
+{"countryCode": "MM", "phoneNumber": "9 250 123 456"}
+{"countryCode": "+95", "phoneNumber": "9 420 123 456"}
+{"countryCode": "MM", "phoneNumber": "9 250"}
+{"countryCode": "US", "phoneNumber": ""}
+{"countryCode": "US", "phoneNumber": "   "}
+{"countryCode": "US", "phoneNumber": null}
+{"countryCode": "", "phoneNumber": "212 555 1234"}
+{"countryCode": null, "phoneNumber": "212 555 1234"}
+{"countryCode": "INVALID", "phoneNumber": "212 555 1234"}
+{"countryCode": "US", "phoneNumber": "212 ABC 1234"}
+{"countryCode": "US", "phoneNumber": "212@555#1234"}
+{"countryCode": "US", "phoneNumber": "+44 20 7946 0958"}
