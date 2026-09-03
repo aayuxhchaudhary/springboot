@@ -5,5 +5,4 @@ import com.phonenumber.validator.dto.PhoneValidationResponse;
 
 public interface PhoneNumberService {
     PhoneValidationResponse validate(PhoneValidationRequest request);
-    boolean isValid(String phoneNumber, String countryCode);
 }

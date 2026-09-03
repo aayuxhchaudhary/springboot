@@ -46,15 +46,6 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
         return new PhoneValidationResponse(true, "Phone number is valid for " + countryDisplay);
     }
 
-    @Override
-    public boolean isValid(String phoneNumber, String countryCode) {
-        try {
-            return validate(new PhoneValidationRequest(phoneNumber, countryCode)).valid();
-        } catch (Exception e) {
-            return false;
-        }
-    }
-
     private String resolveRegion(String countryCode) {
         String clean = countryCode.toUpperCase().replace("+", "");
         if (UTIL.getSupportedRegions().contains(clean)) {
