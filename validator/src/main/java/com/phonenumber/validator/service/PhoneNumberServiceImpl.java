@@ -82,15 +82,20 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
                 return parsed;
             }
 
+            PhoneNumber direct = UTIL.parse(phone, region);
+            if (UTIL.isValidNumber(direct)) {
+                return direct;
+            }
+
             try {
-                PhoneNumber parsed = UTIL.parse("+" + phone, region);
-                if (parsed.getCountryCode() == expectedCallingCode) {
-                    return parsed;
+                PhoneNumber withPlus = UTIL.parse("+" + phone, region);
+                if (withPlus.getCountryCode() == expectedCallingCode && UTIL.isValidNumber(withPlus)) {
+                    return withPlus;
                 }
             } catch (NumberParseException ignored) {
             }
 
-            return UTIL.parse(phone, region);
+            return direct;
         } catch (NumberParseException e) {
             throw new InvalidPhoneNumberException("Could not parse phone number '" + phone + "': " + e.getMessage());
         }
