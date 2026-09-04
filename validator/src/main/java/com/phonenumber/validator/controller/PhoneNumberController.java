@@ -1,8 +1,8 @@
 package com.phonenumber.validator.controller;
 
-import com.phonenumber.validator.dto.PhoneValidationRequest;
 import com.phonenumber.validator.dto.PhoneValidationResponse;
 import com.phonenumber.validator.service.PhoneNumberService;
+import com.phonenumber.validator.util.PhoneNumberRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,7 +18,8 @@ public class PhoneNumberController {
     }
 
     @PostMapping("/validate")
-    public ResponseEntity<PhoneValidationResponse> validate(@RequestBody PhoneValidationRequest request) {
-        return ResponseEntity.ok(service.validate(request));
+    public ResponseEntity<PhoneValidationResponse> validate(@RequestBody PhoneNumberRequest request) {
+        PhoneValidationResponse response = service.validate(request);
+        return ResponseEntity.status(response.statusCode()).body(response);
     }
 }

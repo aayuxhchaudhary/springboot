@@ -1,3 +1,7 @@
 package com.phonenumber.validator.dto;
 
-public record PhoneValidationResponse(boolean valid, String message) {}
+public sealed interface PhoneValidationResponse permits PhoneValidationSuccessResponse, PhoneValidationFailureResponse {
+    int statusCode();
+    boolean success();
+    String message();
+}
