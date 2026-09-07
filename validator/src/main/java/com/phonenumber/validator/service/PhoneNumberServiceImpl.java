@@ -3,10 +3,8 @@ package com.phonenumber.validator.service;
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber.PhoneNumber;
-import com.phonenumber.validator.dto.PhoneDetails;
-import com.phonenumber.validator.dto.PhoneValidationFailureResponse;
+import com.phonenumber.validator.dto.PhoneData;
 import com.phonenumber.validator.dto.PhoneValidationResponse;
-import com.phonenumber.validator.dto.PhoneValidationSuccessResponse;
 import com.phonenumber.validator.exception.InvalidPhoneNumberException;
 import com.phonenumber.validator.util.PhoneNumberRequest;
 import org.springframework.stereotype.Service;
@@ -49,8 +47,12 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
                 throw new InvalidPhoneNumberException("Phone number contains invalid non-numeric characters");
             }
 
-            PhoneNumber number = parse(phone, region);
-            String countryDisplay = new Locale("", region).getDisplayCountry();
+            PhoneNumber number = parse(phone, region, countryInput);
+            String actualRegion = UTIL.getRegionCodeForNumber(number);
+            if (actualRegion == null || "ZZ".equals(actualRegion)) {
+                actualRegion = region;
+            }
+            String countryDisplay = new Locale("", actualRegion).getDisplayCountry();
 
             if (number == null || !UTIL.isValidNumber(number)) {
                 throw new InvalidPhoneNumberException(getDetailedReason(number, countryDisplay));
@@ -59,27 +61,24 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
             String normalizedNumber = UTIL.format(number, PhoneNumberUtil.PhoneNumberFormat.E164);
             String formattedCountryCode = countryInput.startsWith("+") ? countryInput : "+" + countryInput;
 
-            PhoneDetails details = new PhoneDetails(formattedCountryCode, phone, normalizedNumber);
+            PhoneData data = new PhoneData(formattedCountryCode, phone, normalizedNumber, false);
 
-            return new PhoneValidationSuccessResponse(
+            return PhoneValidationResponse.success(
                     200,
-                    true,
                     "Phone number is valid for " + countryDisplay,
-                    null,
-                    details
+                    data,
+                    null
             );
 
         } catch (InvalidPhoneNumberException ex) {
-            return new PhoneValidationFailureResponse(
+            return PhoneValidationResponse.failure(
                     400,
-                    false,
                     ex.getMessage()
             );
 
         } catch (Exception ex) {
-            return new PhoneValidationFailureResponse(
+            return PhoneValidationResponse.failure(
                     500,
-                    false,
                     "An unexpected error occurred: " + ex.getMessage()
             );
         }
@@ -97,13 +96,13 @@ public class PhoneNumberServiceImpl implements PhoneNumberService {
         throw new InvalidPhoneNumberException("Unknown or invalid country calling code: '" + countryCode + "'");
     }
 
-    private PhoneNumber parse(String phone, String region) {
+    private PhoneNumber parse(String phone, String region, String countryInput) {
         int expectedCallingCode = UTIL.getCountryCodeForRegion(region);
         try {
             if (phone.startsWith("+")) {
                 PhoneNumber parsed = UTIL.parse(phone, region);
                 if (parsed.getCountryCode() != expectedCallingCode) {
-                    throw new InvalidPhoneNumberException("Phone number dial code (+" + parsed.getCountryCode() + ") does not match provided country code '" + region + "'");
+                    throw new InvalidPhoneNumberException("Phone number dial code (+" + parsed.getCountryCode() + ") does not match provided country code '" + countryInput + "'");
                 }
                 return parsed;
             }

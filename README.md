@@ -16,15 +16,24 @@
 #### Success Response (`200 OK`)
 ```json
 {
-  "valid": true,
-  "message": "Phone number is valid for India"
+  "statusCode": 200,
+  "success": true,
+  "message": "Phone number is valid for India",
+  "data": {
+    "countryCode": "+91",
+    "phoneNumber": "99936 78654",
+    "normalizedPhoneNumber": "+919993678654",
+    "is_verified": false
+  }
 }
 ```
 
 #### Error Response (`400 Bad Request`)
 ```json
 {
-  "valid": false,
+  "statusCode": 400,
+  "success": false,
+  "error": "Bad Request",
   "message": "Phone number is too short for India (found 5 digits)"
 }
 ```
